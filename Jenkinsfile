@@ -22,6 +22,11 @@ pipeline {
 				sh 'sh app.sh'
 			}
 		}
+                stage('testinigg') {
+                        steps{
+                                sh 'sh app.sh'
+                        }
+                }
 	}
 }
 		
